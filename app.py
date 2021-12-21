@@ -7,7 +7,13 @@ app.config.from_object(env_config)
 
 @app.route("/")
 def index():
-    import cv2
+    text = ""
+    try:
+        import cv2
+        text = "success"
+    except:
+        text = "fail"
+    '''
     vid = cv2.VideoCapture(0)
 
     while True:
@@ -17,8 +23,9 @@ def index():
             break
     vid.release()
     cv2.destroyAllWindows()
+    '''
     secret_key = app.config.get("SECRET_KEY")
-    return f"The configured secret key is {secret_key}."
+    return f"{text}.\nThe configured secret key is {secret_key}."
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=5000, debug=True)
