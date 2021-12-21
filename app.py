@@ -18,7 +18,7 @@ def index():
     vid.release()
     cv2.destroyAllWindows()
     secret_key = app.config.get("SECRET_KEY")
-    return f"{text}.\nThe configured secret key is {secret_key}."
+    return f"The configured secret key is {secret_key}."
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=5000, debug=True)
