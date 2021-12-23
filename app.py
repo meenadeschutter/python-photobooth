@@ -18,6 +18,7 @@ def gen_frames():  # generate frame by frame from camera
         if not success and cam_index < 10:
             cam_index += 1
             camera = cv2.VideoCapture(cam_index)
+            print(cam_index)
             break
         else:
             ret, buffer = cv2.imencode('.jpg', frame)
