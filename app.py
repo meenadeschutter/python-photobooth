@@ -6,13 +6,18 @@ app = Flask(__name__)
 env_config = os.getenv("APP_SETTINGS", "config.DevelopmentConfig")
 app.config.from_object(env_config)
 
-camera = cv2.VideoCapture(0)
+cam_index = 0
+camera = cv2.VideoCapture(cam_index)
 
 def gen_frames():  # generate frame by frame from camera
+    global cam_index
+    global camera
     while True:
         # Capture frame-by-frame
         success, frame = camera.read()  # read the camera frame
-        if not success:
+        if not success and cam_index < 10:
+            cam_index += 1
+            camera = cv2.VideoCapture(cam_index)
             break
         else:
             ret, buffer = cv2.imencode('.jpg', frame)
