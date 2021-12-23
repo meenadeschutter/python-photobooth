@@ -17,7 +17,7 @@
 <h3 align="center">Python Photobooth</h3>
 
   <p align="center">
-    A simple photobooth webapp created with Python.
+    A simple photobooth webapp created with Python using Flask, hosted by Heroku, and using the CameraTag API.
     <br />
     <a href="https://github.com/meenadeschutter/python-photobooth"><strong>Explore the docs »</strong></a>
     <br />
@@ -65,7 +65,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://meenadeschutter.github.io)
 
-This is my first webapp project! It is a simple photobooth webapp created in Python using Flask and hosted by heroku.
+This is my first webapp project! It is a simple photobooth webapp created in Python using Flask and hosted by Heroku. Using CameraTag for camera features.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -76,6 +76,7 @@ This is my first webapp project! It is a simple photobooth webapp created in Pyt
 * [Python 3.8.2](https://www.python.org/downloads/release/python-382/)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 * [heroku](https://www.heroku.com/)
+* [CameraTag](https://cameratag.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -85,18 +86,18 @@ This is my first webapp project! It is a simple photobooth webapp created in Pyt
 
 - [x] Create git repository
     - [x] Add README
-    - [] Add license
-- [] Setup
-    - [] Create photobooth on python
+    - [x] Add license
+- [x] Setup
+    - [x] Create photobooth on python (Update: Changed to use CameraTag API to be compatible with heroku)
     - [] Translate using Flask to create webapp
-    - [] Host using heroku
+    - [x] Host using heroku
 - [] Basic functionality
-    - [] Capture photo
+    - [x] Capture photo
     - [] Capture video
     - [] Review photos and video
     - [] Downloadable photos and videos
 - [] Other features
-    - [] Add some filters
+    - [x] Add some filters (many filters already available in CameraTag API)
     - [] Add some stickers
     - [] Custom text
 - [] Bonus features
