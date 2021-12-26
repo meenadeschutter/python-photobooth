@@ -134,7 +134,7 @@ Project Link: [https://github.com/meenadeschutter/python-photobooth](https://git
 
 * [README Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
 * [Real Python: Python Web App Tutorials](https://realpython.com/python-web-applications/)
-* [Star bakcground image](https://pixabay.com/illustrations/star-frame-glitter-confetti-1571552/)
+* [Bootstrap Icons](https://icons.getbootstrap.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
