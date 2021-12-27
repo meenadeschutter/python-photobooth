@@ -67,6 +67,8 @@
 
 This is my first webapp project! It is a simple photobooth webapp created in Python using Flask and hosted by Heroku. Using CameraTag for camera features.
 
+One thing I am currently struggling with that I have contacted the CameraTag developers about is creating a custom capture-screen for the photobooth.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
