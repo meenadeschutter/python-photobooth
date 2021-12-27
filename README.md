@@ -63,9 +63,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://meenadeschutter.github.io)
+[![Product Name Screen Shot][product-screenshot]](https://python-photobooth.herokuapp.com/)
 
-This is my first webapp project! It is a simple photobooth webapp created in Python using Flask and hosted by Heroku. Using CameraTag for camera features.
+[This is my first webapp project](https://python-photobooth.herokuapp.com/)! It is a simple photobooth webapp created in Python using Flask and hosted by Heroku, using CameraTag for camera features.
 
 One thing I am currently struggling with that I have contacted the CameraTag developers about is creating a custom capture-screen for the photobooth.
 
